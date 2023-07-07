@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Setup Cog
-      uses: replicate/setup-cog@v1
+      uses: replicate/setup-cog@v1.0.2
       with:
         token: ${{ secrets.REPLICATE_API_TOKEN }}
 
